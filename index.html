@@ -1,9 +1,461 @@
-<html>
-
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>lee-na — pictures, finished in software</title>
+  <meta name="description" content="Lina is a software engineer moving into cinema technology. A portfolio of studies, a printer-lights bench, lab notes, and a contact slate.">
+  <link rel="canonical" href="https://linacartman.github.io/">
+  <meta name="theme-color" content="#100e0c">
+  <meta name="color-scheme" content="dark">
+  <meta name="referrer" content="strict-origin-when-cross-origin">
+  <meta name="author" content="Lina">
+  <meta name="robots" content="index, follow">
+  <meta http-equiv="Content-Security-Policy" content="default-src 'self'; img-src 'self'; style-src 'self'; script-src 'self'; font-src 'self'; connect-src 'self'; object-src 'none'; base-uri 'self'; form-action 'none'">
+  <meta property="og:type" content="website">
+  <meta property="og:site_name" content="lee-na">
+  <meta property="og:title" content="lee-na — pictures, finished in software">
+  <meta property="og:description" content="Lina is a software engineer moving into cinema technology. Studies, a printer-lights bench, lab notes, and a contact slate.">
+  <meta property="og:url" content="https://linacartman.github.io/">
+  <meta property="og:image" content="https://linacartman.github.io/assets/og.jpg">
+  <meta property="og:image:width" content="1200">
+  <meta property="og:image:height" content="630">
+  <meta name="twitter:card" content="summary_large_image">
+  <meta name="twitter:title" content="lee-na — pictures, finished in software">
+  <meta name="twitter:description" content="Lina is a software engineer moving into cinema technology. Studies, a printer-lights bench, lab notes, and a contact slate.">
+  <meta name="twitter:image" content="https://linacartman.github.io/assets/og.jpg">
+  <link rel="icon" href="/favicon.svg" type="image/svg+xml">
+  <link rel="apple-touch-icon" href="/assets/apple-touch.png">
+  <link rel="manifest" href="/site.webmanifest">
+  <link rel="preload" href="/fonts/fraunces-latin.woff2" as="font" type="font/woff2" crossorigin>
+  <link rel="preload" as="image" href="/assets/hero-1280.webp" type="image/webp" imagesrcset="/assets/hero-800.webp 800w, /assets/hero-1280.webp 1280w" imagesizes="(min-width: 900px) 46vw, calc(100vw - 2.5rem)">
+  <link rel="stylesheet" href="/css/bay.min.css">
+  <script type="application/ld+json">
+  {
+    "@context": "https://schema.org",
+    "@type": "Person",
+    "name": "Lina",
+    "alternateName": "lee-na",
+    "url": "https://linacartman.github.io/",
+    "jobTitle": "Software engineer",
+    "description": "Software engineer moving into cinema technology: color, archives, and delivery tools.",
+    "sameAs": ["https://github.com/linacartman"]
+  }
+  </script>
+</head>
 <body>
-  <h1>lee-na</h1>
-  <p>Welcome to my website!</p>
-  <img src="https://content.codecademy.com/articles/github-pages-via-web-app/happy-ice-cream.gif" />
-</body>
+  <a class="skip" href="#content">Skip to content</a>
+  <header class="site-header">
+    <a class="brand" href="#reel">lee-na</a>
+    <p class="status" aria-hidden="true">
+      <span class="status__rec"><span class="status__dot"></span>Rec</span>
+      <span data-timecode>01:00:00:00</span>
+      <span class="status__fps">24 fps</span>
+    </p>
+    <button class="nav-toggle" type="button" aria-expanded="false" aria-controls="site-nav">Menu</button>
+    <nav id="site-nav" class="site-nav" aria-label="Primary">
+      <a href="#reel">Reel</a>
+      <a href="#bay">Bay</a>
+      <a href="#studies">Studies</a>
+      <a href="#bench">Bench</a>
+      <a href="#journal">Journal</a>
+      <a href="#slate">Slate</a>
+    </nav>
+  </header>
+  <noscript>
+    <p class="noscript-note">The sliders, countdown, and gallery need JavaScript. The writing, the pictures, and the GitHub link do not.</p>
+  </noscript>
+  <main id="content">
+    <section class="hero" id="reel" aria-labelledby="hero-title">
+      <div class="hero__copy">
+        <p class="kicker">Telecine · Bay 01</p>
+        <h1 id="hero-title">Pictures, <em>finished</em> in software.</h1>
+        <p class="lede">I’m Lina. I design and build interfaces for the rooms where films become files: color, archives, and delivery. This bay is the sample.</p>
+        <div class="hero__actions">
+          <a class="btn btn--solid" href="#studies">View the studies</a>
+          <a class="btn" href="#slate">Write a slate</a>
+        </div>
+      </div>
+      <figure class="gate">
+        <span class="perf" aria-hidden="true"></span>
+        <span class="window">
+          <span class="window__still">
+            <picture>
+              <source type="image/webp" srcset="/assets/hero-800.webp 800w, /assets/hero-1280.webp 1280w" sizes="(min-width: 900px) 46vw, calc(100vw - 2.5rem)">
+              <img src="/assets/hero-1280.jpg" width="1280" height="720" alt="A strip of motion-picture film held in a metal telecine gate, lit by tungsten from the left and a cyan spill from the right." fetchpriority="high" decoding="async">
+            </picture>
+          </span>
+        </span>
+        <span class="perf" aria-hidden="true"></span>
+        <figcaption class="edge"><span>Lee-na</span><span>400T</span><span>001</span></figcaption>
+      </figure>
+    </section>
 
+    <section class="band" id="bay" aria-labelledby="bay-title">
+      <div class="split">
+        <figure class="gate">
+          <span class="perf" aria-hidden="true"></span>
+          <span class="window">
+            <span class="window__still">
+              <picture>
+                <source type="image/webp" srcset="/assets/bench-640.webp 640w, /assets/bench-960.webp 960w" sizes="(min-width: 900px) 40vw, calc(100vw - 2.5rem)">
+                <img src="/assets/bench-960.jpg" width="960" height="720" alt="A cinema lens, a coiled cable, and a keyboard with blank keys sharing one pool of tungsten light." loading="lazy" decoding="async">
+              </picture>
+            </span>
+          </span>
+          <span class="perf" aria-hidden="true"></span>
+          <figcaption class="edge"><span>Bay</span><span>Lens / keys</span><span>002</span></figcaption>
+        </figure>
+        <div class="prose">
+          <p class="kicker">About</p>
+          <h2 id="bay-title">The bay</h2>
+          <blockquote class="pull">Telecine is a transfer. The film stays film. The signal becomes something you can time, index, and hand to someone else.</blockquote>
+          <p>I am a software engineer moving toward cinema technology. The overlap is practical. A colorist’s printer lights, an archivist’s edge numbers, a delivery spec: they are interfaces. They ask for the same things good software asks for. A clear state. A way back to the start. A label that means the same thing tomorrow.</p>
+          <p>lee-na is the name on the gate. It is the mark I put on work that treats pictures as carefully as data, and data as carefully as pictures.</p>
+          <p>I care about semantic HTML, a keyboard path, a page that loads little, and type that can hold a long sentence. I also care about sprocket holes. Both are systems for keeping an image in register.</p>
+        </div>
+      </div>
+    </section>
+
+    <section class="band" id="studies" aria-labelledby="studies-title">
+      <div class="band__head">
+        <p class="kicker">Selected frames</p>
+        <h2 id="studies-title">Studies</h2>
+        <p class="lede">Four studies from the bench. They are original work on this site, not client jobs. Each one is here so you can see how I structure an interface, a page, and a sentence.</p>
+      </div>
+      <div class="studies">
+        <article class="study study--feature" id="printer-lights" data-title="Printer Lights">
+          <button class="frame" type="button" data-open="printer-lights">
+            <span class="visually-hidden">Open gallery: Printer Lights.</span>
+            <span class="perf" aria-hidden="true"></span>
+            <span class="window">
+              <span class="window__still">
+                <picture>
+                  <source type="image/webp" srcset="/assets/hero-800.webp 800w, /assets/hero-1280.webp 1280w" sizes="(min-width: 860px) 55vw, calc(100vw - 2.5rem)">
+                  <img src="/assets/hero-1280.jpg" width="1280" height="720" alt="" loading="lazy" decoding="async">
+                </picture>
+              </span>
+            </span>
+            <span class="perf" aria-hidden="true"></span>
+            <span class="edge" aria-hidden="true"><span>01</span><span>3 frames</span></span>
+          </button>
+          <div class="study__copy">
+            <p class="kicker">01 — Interface</p>
+            <h3>Printer Lights</h3>
+            <div class="study__more">
+              <p>A teaching model of RGB printer points lives on the bench below. The center is 25. Move a channel and the gate tints. Reset brings the center back. It is not a calibrated analyzer, and it does not pretend to be.</p>
+              <ul>
+                <li>The center is a promise the bench agreed on, not a claim about neutral light.</li>
+                <li>Reset is a first-class control, not an afterthought.</li>
+                <li>The edge code under the preview updates with the three numbers.</li>
+              </ul>
+            </div>
+            <button class="btn" type="button" data-open="printer-lights">Open frames</button>
+          </div>
+          <div class="study__frames" hidden>
+            <figure data-frame data-src="/assets/hero-1280.webp" data-w="1280" data-h="720" data-alt="A strip of motion-picture film held in a metal telecine gate.">
+              <figcaption>The gate the bench times against.</figcaption>
+            </figure>
+            <figure data-frame data-src="/assets/scanner-960.webp" data-w="960" data-h="720" data-alt="A short strip of color film on scanner glass. The frames hold abstract color and no titles.">
+              <figcaption>Frames as a record, before anyone names them.</figcaption>
+            </figure>
+            <figure data-frame data-src="/assets/macro-800.webp" data-w="800" data-h="800" data-alt="Extreme close-up of colored film grain around a single sprocket hole.">
+              <figcaption>Grain, and the hole that does the counting.</figcaption>
+            </figure>
+          </div>
+        </article>
+
+        <article class="study" id="the-gate" data-title="The Gate">
+          <button class="frame" type="button" data-open="the-gate">
+            <span class="visually-hidden">Open gallery: The Gate.</span>
+            <span class="perf" aria-hidden="true"></span>
+            <span class="window">
+              <span class="window__still">
+                <picture>
+                  <source type="image/webp" srcset="/assets/scanner-640.webp 640w, /assets/scanner-960.webp 960w" sizes="(min-width: 860px) 40vw, calc(100vw - 2.5rem)">
+                  <img src="/assets/scanner-960.jpg" width="960" height="720" alt="" loading="lazy" decoding="async">
+                </picture>
+              </span>
+            </span>
+            <span class="perf" aria-hidden="true"></span>
+            <span class="edge" aria-hidden="true"><span>02</span><span>3 frames</span></span>
+          </button>
+          <div class="study__copy">
+            <p class="kicker">02 — Gallery</p>
+            <h3>The Gate</h3>
+            <div class="study__more">
+              <p>This lightbox is the gallery. It holds one picture still, counts the others, and lets you leave. The browser’s dialog keeps focus inside until you close it.</p>
+              <ul>
+                <li>Escape closes. Focus returns to the button that opened the gate.</li>
+                <li>Previous and Next are named controls. Arrow keys and a swipe do the same job.</li>
+                <li>Stills are WebP, with a JPEG fallback on the page itself.</li>
+              </ul>
+            </div>
+            <button class="btn" type="button" data-open="the-gate">Open frames</button>
+          </div>
+          <div class="study__frames" hidden>
+            <figure data-frame data-src="/assets/scanner-960.webp" data-w="960" data-h="720" data-alt="A short strip of color film lying on scanner glass.">
+              <figcaption>One strip, held still long enough to look.</figcaption>
+            </figure>
+            <figure data-frame data-src="/assets/cans-960.webp" data-w="960" data-h="720" data-alt="Unlabeled black film cans and an open reel on a worn wooden bench.">
+              <figcaption>Cans without labels. The record has to live somewhere else.</figcaption>
+            </figure>
+            <figure data-frame data-src="/assets/projector-1280.webp" data-w="1280" data-h="720" data-alt="An empty cinema. A projector beam crosses a blank screen.">
+              <figcaption>The room the file is eventually for.</figcaption>
+            </figure>
+          </div>
+        </article>
+
+        <article class="study" id="academy-leader" data-title="Academy Leader">
+          <button class="frame" type="button" data-open="academy-leader">
+            <span class="visually-hidden">Open gallery: Academy Leader.</span>
+            <span class="perf" aria-hidden="true"></span>
+            <span class="window">
+              <span class="window__still">
+                <picture>
+                  <source type="image/webp" srcset="/assets/projector-800.webp 800w, /assets/projector-1280.webp 1280w" sizes="(min-width: 860px) 40vw, calc(100vw - 2.5rem)">
+                  <img src="/assets/projector-1280.jpg" width="1280" height="720" alt="" loading="lazy" decoding="async">
+                </picture>
+              </span>
+            </span>
+            <span class="perf" aria-hidden="true"></span>
+            <span class="edge" aria-hidden="true"><span>03</span><span>2 frames</span></span>
+          </button>
+          <div class="study__copy">
+            <p class="kicker">03 — State</p>
+            <h3>Academy Leader</h3>
+            <div class="study__more">
+              <p>A countdown in the gate, from 8 to 2. It rolls when you ask, and it stops when you ask. If the system is set to reduce motion, it holds on 2 instead of playing.</p>
+              <ul>
+                <li>The button reads Stop while the countdown runs.</li>
+                <li>Nothing autoplays.</li>
+                <li>A polite status announces the count, rather than a pile of alerts.</li>
+              </ul>
+            </div>
+            <button class="btn" type="button" data-open="academy-leader">Open frames</button>
+          </div>
+          <div class="study__frames" hidden>
+            <figure data-frame data-src="/assets/projector-1280.webp" data-w="1280" data-h="720" data-alt="An empty cinema with a single projector beam and a blank screen.">
+              <figcaption>Picture start is a shared signal. The room should be able to see it.</figcaption>
+            </figure>
+            <figure data-frame data-src="/assets/hero-1280.webp" data-w="1280" data-h="720" data-alt="Film threaded in a telecine gate, tungsten on one side and cyan on the other.">
+              <figcaption>Back to the gate, where the countdown lives on this site.</figcaption>
+            </figure>
+          </div>
+        </article>
+
+        <article class="study" id="lab-notes" data-title="Lab Notes">
+          <button class="frame" type="button" data-open="lab-notes">
+            <span class="visually-hidden">Open gallery: Lab Notes.</span>
+            <span class="perf" aria-hidden="true"></span>
+            <span class="window">
+              <span class="window__still">
+                <picture>
+                  <source type="image/webp" srcset="/assets/macro-480.webp 480w, /assets/macro-800.webp 800w" sizes="(min-width: 860px) 40vw, calc(100vw - 2.5rem)">
+                  <img src="/assets/macro-800.jpg" width="800" height="800" alt="" loading="lazy" decoding="async">
+                </picture>
+              </span>
+            </span>
+            <span class="perf" aria-hidden="true"></span>
+            <span class="edge" aria-hidden="true"><span>04</span><span>3 frames</span></span>
+          </button>
+          <div class="study__copy">
+            <p class="kicker">04 — Writing</p>
+            <h3>Lab Notes</h3>
+            <div class="study__more">
+              <p>Three essays with their own addresses. Each has one subject, a date, and a column narrow enough to read. They are about color, gates, and the signals in a page.</p>
+              <ul>
+                <li>Separate URLs under /journal/, so one note can be sent alone.</li>
+                <li>One h1, a time element, and a measured column.</li>
+                <li>No tracker on the page.</li>
+              </ul>
+            </div>
+            <p class="cluster"><a class="btn" href="#journal">Read the notes</a> <button class="btn" type="button" data-open="lab-notes">Open frames</button></p>
+          </div>
+          <div class="study__frames" hidden>
+            <figure data-frame data-src="/assets/macro-800.webp" data-w="800" data-h="800" data-alt="Colored film grain surrounding one dark sprocket hole.">
+              <figcaption>The hole is the counting. The grain is the picture.</figcaption>
+            </figure>
+            <figure data-frame data-src="/assets/cans-960.webp" data-w="960" data-h="720" data-alt="Black film cans and a loose reel on a dark wooden bench.">
+              <figcaption>Storage is not a catalog. The notes have to do that work.</figcaption>
+            </figure>
+            <figure data-frame data-src="/assets/bench-960.webp" data-w="960" data-h="720" data-alt="A lens and a blank keyboard on a black table.">
+              <figcaption>The two tools this bay is trying to keep in the same light.</figcaption>
+            </figure>
+          </div>
+        </article>
+      </div>
+    </section>
+
+    <section class="band" id="bench" aria-labelledby="bench-title">
+      <div class="band__head">
+        <p class="kicker">Operate the gate</p>
+        <h2 id="bench-title">Bench</h2>
+        <p class="lede">A teaching model of printer lights. 25 is the center this bench agreed on. Real labs calibrate a strip; this one is a sketch you can operate.</p>
+      </div>
+      <div class="split split--bench">
+        <figure class="gate" id="gate-preview">
+          <span class="perf" aria-hidden="true"></span>
+          <span class="window">
+            <span class="window__still">
+              <picture>
+                <source type="image/webp" srcset="/assets/hero-800.webp 800w, /assets/hero-1280.webp 1280w" sizes="(min-width: 900px) 58vw, calc(100vw - 2.5rem)">
+                <img id="gate-image" src="/assets/hero-1280.jpg" width="1280" height="720" alt="Preview frame: film in a telecine gate. The printer lights tint this picture." loading="lazy" decoding="async">
+              </picture>
+            </span>
+            <span class="grade" id="gate-grade" aria-hidden="true"></span>
+            <span class="leader" id="leader" hidden>
+              <span class="leader__dial">
+                <span class="leader__hand" id="leader-hand"></span>
+                <span class="leader__num" id="leader-num">8</span>
+              </span>
+            </span>
+          </span>
+          <span class="perf" aria-hidden="true"></span>
+          <figcaption class="edge"><span>Lee-na</span><span id="edge-code">R25 G25 B25</span><span>24</span></figcaption>
+        </figure>
+        <div>
+          <p class="bench-note" id="lights-help">Each channel runs from 1 to 50. The mark on the track is the center. Leaving a slider announces the three numbers.</p>
+          <form id="lights" class="lights">
+            <div class="lights__row">
+              <label for="light-r">Red</label>
+              <input id="light-r" name="red" type="range" min="1" max="50" value="25" data-channel="r" aria-describedby="lights-help">
+              <output for="light-r">25</output>
+            </div>
+            <div class="lights__row">
+              <label for="light-g">Green</label>
+              <input id="light-g" name="green" type="range" min="1" max="50" value="25" data-channel="g" aria-describedby="lights-help">
+              <output for="light-g">25</output>
+            </div>
+            <div class="lights__row">
+              <label for="light-b">Blue</label>
+              <input id="light-b" name="blue" type="range" min="1" max="50" value="25" data-channel="b" aria-describedby="lights-help">
+              <output for="light-b">25</output>
+            </div>
+            <div class="cluster">
+              <button class="btn" type="reset">Reset to 25</button>
+              <button class="btn" id="leader-roll" type="button" aria-pressed="false">Roll leader</button>
+            </div>
+          </form>
+          <p id="lights-status" class="visually-hidden" aria-live="polite"></p>
+          <p id="leader-status" class="visually-hidden" aria-live="polite"></p>
+        </div>
+      </div>
+    </section>
+
+    <section class="band" id="journal" aria-labelledby="journal-title">
+      <div class="band__head">
+        <p class="kicker">Lab notes</p>
+        <h2 id="journal-title">Journal</h2>
+        <p class="lede">Notes on the place where a timing decision, a page, and a film gate turn out to be similar problems. Each one has its own address.</p>
+      </div>
+      <ol class="notes">
+        <li>
+          <a href="/journal/color-is-a-timing-decision.html">
+            <span class="kicker"><time datetime="2026-09-12">12 Sep 2026</time> · 2 min</span>
+            <h3>Color is a timing decision</h3>
+            <p>A printer light is not the color. It is a promise that someone else can find the color again.</p>
+          </a>
+        </li>
+        <li>
+          <a href="/journal/the-gate-between-film-and-code.html">
+            <span class="kicker"><time datetime="2026-10-03">03 Oct 2026</time> · 2 min</span>
+            <h3>The gate between film and code</h3>
+            <p>What a rectangle, a sprocket, and a pressure plate have to do with a page.</p>
+          </a>
+        </li>
+        <li>
+          <a href="/journal/signals-in-a-frame.html">
+            <span class="kicker"><time datetime="2026-10-28">28 Oct 2026</time> · 2 min</span>
+            <h3>Signals in a frame</h3>
+            <p>What I hope you can read here without a tour: focus, errors, addresses, and a form that fails honestly.</p>
+          </a>
+        </li>
+      </ol>
+      <p class="cluster"><a class="btn" href="/journal/">All notes</a></p>
+    </section>
+
+    <section class="band" id="slate" aria-labelledby="slate-title">
+      <div class="slate-grid">
+        <div>
+          <p class="kicker">Contact</p>
+          <h2 id="slate-title">Slate</h2>
+          <p class="lede" id="mail-note">The public channel today is GitHub. This form checks itself in the browser. Mail is not connected yet, so the message stays on this page and you can copy it. Nothing is sent to a server.</p>
+          <p class="cluster"><a class="btn btn--solid" rel="me noopener noreferrer" href="https://github.com/linacartman" target="_blank">GitHub</a></p>
+        </div>
+        <div>
+          <form id="slate-form" novalidate>
+            <div class="field">
+              <label for="name">Name (required)</label>
+              <input id="name" name="name" type="text" autocomplete="name" maxlength="80" spellcheck="false" aria-required="true" aria-describedby="name-error" aria-invalid="false">
+              <p class="field-error" id="name-error" role="alert"></p>
+            </div>
+            <div class="field">
+              <label for="email">Email (required)</label>
+              <input id="email" name="email" type="email" autocomplete="email" maxlength="120" inputmode="email" aria-required="true" aria-describedby="email-error" aria-invalid="false">
+              <p class="field-error" id="email-error" role="alert"></p>
+            </div>
+            <div class="field">
+              <label for="role">I am (required)</label>
+              <select id="role" name="role" aria-required="true" aria-describedby="role-error" aria-invalid="false">
+                <option value="">Choose one</option>
+                <option>A recruiter</option>
+                <option>A client</option>
+                <option>A collaborator</option>
+                <option>Someone else</option>
+              </select>
+              <p class="field-error" id="role-error" role="alert"></p>
+            </div>
+            <div class="field">
+              <label for="message">Message (required)</label>
+              <textarea id="message" name="message" maxlength="2000" spellcheck="true" aria-required="true" aria-describedby="message-error" aria-invalid="false"></textarea>
+              <p class="field-error" id="message-error" role="alert"></p>
+            </div>
+            <div class="hp" aria-hidden="true">
+              <label for="company">Company website</label>
+              <input id="company" name="company" type="text" tabindex="-1" autocomplete="off">
+            </div>
+            <button class="btn btn--solid" type="submit">Cut the slate</button>
+          </form>
+          <div id="slate-result" tabindex="-1" hidden>
+            <h3>Slate cut.</h3>
+            <p id="slate-blurb"></p>
+            <pre id="slate-preview"></pre>
+            <div class="cluster">
+              <button class="btn btn--solid" id="slate-copy" type="button">Copy message</button>
+              <a class="btn" id="slate-mail" href="#slate" hidden>Open in your mail app</a>
+              <button class="btn" id="slate-again" type="button">Write another</button>
+            </div>
+            <p id="slate-status" class="visually-hidden" aria-live="polite"></p>
+          </div>
+        </div>
+      </div>
+    </section>
+  </main>
+  <footer class="site-footer">
+    <p>© 2026 Lina · lee-na color bay</p>
+    <p>Original studies and notes. Not client work.</p>
+    <p>No trackers. No cookies. Type set in Fraunces and DM Mono, both under the SIL Open Font License.</p>
+    <p>HTTPS comes with GitHub Pages when this bay is served from its public host. <a rel="me noopener noreferrer" href="https://github.com/linacartman" target="_blank">GitHub</a></p>
+  </footer>
+
+  <dialog class="lightbox" id="lightbox" aria-labelledby="lb-title">
+    <div class="lightbox__bar">
+      <h2 id="lb-title">Gallery</h2>
+      <button class="btn" type="button" data-close>Close</button>
+    </div>
+    <div class="lightbox__nav">
+      <button class="btn" type="button" data-prev>Previous</button>
+      <p class="kicker" id="lb-count" aria-hidden="true">1 of 1</p>
+      <button class="btn" type="button" data-next>Next</button>
+    </div>
+    <figure class="lightbox__figure">
+      <img id="lb-img" src="/assets/hero-1280.webp" alt="" width="1280" height="720">
+      <figcaption id="lb-cap"></figcaption>
+    </figure>
+    <div class="lightbox__body" id="lb-more"></div>
+    <p id="lb-live" class="visually-hidden" aria-live="polite"></p>
+  </dialog>
+  <script src="/js/bay.min.js" defer></script>
+</body>
 </html>
