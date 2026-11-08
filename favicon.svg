@@ -1,0 +1,18 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 32 32" role="img" aria-label="lee-na">
+  <rect width="32" height="32" fill="#100e0c"/>
+  <rect x="5" y="4" width="22" height="24" rx="2" fill="#2a2118"/>
+  <g fill="#100e0c">
+    <circle cx="8.2" cy="8" r="1.15"/>
+    <circle cx="8.2" cy="12" r="1.15"/>
+    <circle cx="8.2" cy="16" r="1.15"/>
+    <circle cx="8.2" cy="20" r="1.15"/>
+    <circle cx="8.2" cy="24" r="1.15"/>
+    <circle cx="23.8" cy="8" r="1.15"/>
+    <circle cx="23.8" cy="12" r="1.15"/>
+    <circle cx="23.8" cy="16" r="1.15"/>
+    <circle cx="23.8" cy="20" r="1.15"/>
+    <circle cx="23.8" cy="24" r="1.15"/>
+  </g>
+  <rect x="11" y="9" width="10" height="14" fill="#c9854a"/>
+  <rect x="12.4" y="10.4" width="7.2" height="11.2" fill="#16383a"/>
+</svg>
